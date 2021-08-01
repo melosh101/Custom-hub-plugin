@@ -1,0 +1,17 @@
+name: customhubplugin
+version: 1.0.0
+author: melosh
+main: tk.milasholsting.hub.Main
+description: my custom hub plugin
+api-version: 1.17
+load: POSTWORLD
+prefix: Custom Hub
+
+commands:
+  server:
+    aliases: []
+    description: dummy for bungeecord /server command
+  
+  warp:
+    aliases: []
+    description: open the warp GUI!
